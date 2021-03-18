@@ -1,0 +1,22 @@
+.Tweet {
+  background-color: #eef;
+  img {
+    max-width: 64px;
+    background-color: #ccf;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  &Contents {
+    p {
+      margin: 0;
+      line-height: 2;
+    }
+    .card {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      .card-body {
+        padding: 5px;
+      }
+    }
+  }
+}
