@@ -5,7 +5,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header dark={true}>React Twitter</Header>
+        <Header dark={true} className="justify-content-center">
+          React Twitter
+        </Header>
       </div>
     );
   }
