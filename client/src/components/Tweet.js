@@ -4,7 +4,7 @@ import Bird from "../assets/logo.png";
 
 const Tweet = ({ Name, children }) => {
   return (
-    <div className="Tweet media border rounded">
+    <div className="Tweet media border rounded mb-3">
       <img src={Bird} alt="Bird" className="mr-2" />
       <div className="TweetContents flex-grow-1">
         <p>
